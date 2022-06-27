@@ -89,7 +89,7 @@ $ flutter run
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
 
-Made with :heart: by <a href="https://github.com/AlissonAzevedo" target="_blank">AlissonAzevedo</a> & <a href="https://github.com/J0T4" target="_blank">Juan Leal</a>
+Made with :heart: by <a href="https://github.com/AlissonAzevedo" target="_blank">AlissonAzevedo</a> & <a href="https://github.com/J0T4J" target="_blank">Juan Leal</a>
 
 &#xa0;
 
