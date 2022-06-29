@@ -37,7 +37,7 @@ class _AllTaskPageState extends State<AllTaskPage> {
               children: [
                 const SizedBox(height: 16.0),
                 Text(
-                  'Tasks',
+                  'Tarefas',
                   style: Theme.of(context).textTheme.headlineMedium!.copyWith(
                         color: ColorName.primary,
                         fontWeight: FontWeight.bold,
@@ -69,7 +69,7 @@ class _AllTaskPageState extends State<AllTaskPage> {
                         if (state.tasks.isEmpty) {
                           return const EmptyTaskWidget(
                               message:
-                                  "There's no task yet!\n Add a new Task ✨");
+                                  "Adicione uma nova tarefa ✨");
                         }
 
                         return ListTask(

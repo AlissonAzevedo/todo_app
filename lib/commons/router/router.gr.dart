@@ -45,14 +45,14 @@ class AppRouter extends _i5.RootStackRouter {
   @override
   List<_i5.RouteConfig> get routes => [
         _i5.RouteConfig('/#redirect',
-            path: '/', redirectTo: '/task', fullMatch: true),
-        _i5.RouteConfig(TaskTabRoute.name, path: '/task', children: [
+            path: '/', redirectTo: '/tarefas', fullMatch: true),
+        _i5.RouteConfig(TaskTabRoute.name, path: '/tarefas', children: [
           _i5.RouteConfig(AllTaskRoute.name,
               path: '', parent: TaskTabRoute.name),
           _i5.RouteConfig(CompleteTaskRoute.name,
-              path: 'complete', parent: TaskTabRoute.name),
+              path: 'completa', parent: TaskTabRoute.name),
           _i5.RouteConfig(IncompleteTaskRoute.name,
-              path: 'incomplete', parent: TaskTabRoute.name)
+              path: 'incompleta', parent: TaskTabRoute.name)
         ])
       ];
 }
@@ -61,7 +61,7 @@ class AppRouter extends _i5.RootStackRouter {
 /// [_i1.TaskTabPage]
 class TaskTabRoute extends _i5.PageRouteInfo<void> {
   const TaskTabRoute({List<_i5.PageRouteInfo>? children})
-      : super(TaskTabRoute.name, path: '/task', initialChildren: children);
+      : super(TaskTabRoute.name, path: '/tarefas', initialChildren: children);
 
   static const String name = 'TaskTabRoute';
 }
@@ -77,7 +77,7 @@ class AllTaskRoute extends _i5.PageRouteInfo<void> {
 /// generated route for
 /// [_i3.CompleteTaskPage]
 class CompleteTaskRoute extends _i5.PageRouteInfo<void> {
-  const CompleteTaskRoute() : super(CompleteTaskRoute.name, path: 'complete');
+  const CompleteTaskRoute() : super(CompleteTaskRoute.name, path: 'completa');
 
   static const String name = 'CompleteTaskRoute';
 }
@@ -86,7 +86,7 @@ class CompleteTaskRoute extends _i5.PageRouteInfo<void> {
 /// [_i4.IncompleteTaskPage]
 class IncompleteTaskRoute extends _i5.PageRouteInfo<void> {
   const IncompleteTaskRoute()
-      : super(IncompleteTaskRoute.name, path: 'incomplete');
+      : super(IncompleteTaskRoute.name, path: 'incompleta');
 
   static const String name = 'IncompleteTaskRoute';
 }

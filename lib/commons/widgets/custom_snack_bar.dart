@@ -59,7 +59,7 @@ Future<void> showErrorSnackBBar({
       color: ColorName.error,
       size: 24.0,
     ),
-    message: message ?? "There was an error, try again",
+    message: message ?? "Ocorreu um erro, tente novamente",
     actionLabel: actionLabel,
     onActionTap: onActionTap,
   );

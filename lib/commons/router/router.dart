@@ -8,13 +8,13 @@ import 'package:todo_app/features/task/pages/task_tab_page.dart';
   replaceInRouteName: 'Page,Route',
   routes: [
     AutoRoute(
-      path: '/task',
+      path: '/tarefas',
       page: TaskTabPage,
       initial: true,
       children: [
         AutoRoute(path: '', page: AllTaskPage),
-        AutoRoute(path: 'complete', page: CompleteTaskPage),
-        AutoRoute(path: 'incomplete', page: IncompleteTaskPage),
+        AutoRoute(path: 'completa', page: CompleteTaskPage),
+        AutoRoute(path: 'incompleta', page: IncompleteTaskPage),
       ],
     ),
   ],

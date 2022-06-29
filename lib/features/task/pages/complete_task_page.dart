@@ -34,7 +34,7 @@ class _CompleteTaskPageState extends State<CompleteTaskPage> {
           children: [
             const SizedBox(height: 16.0),
             Text(
-              'Complete',
+              'Completas',
               style: Theme.of(context).textTheme.headlineMedium!.copyWith(
                     color: ColorName.primary,
                     fontWeight: FontWeight.bold,

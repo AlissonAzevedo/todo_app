@@ -34,7 +34,7 @@ class _IncompleteTaskPageState extends State<IncompleteTaskPage> {
           children: [
             const SizedBox(height: 16.0),
             Text(
-              'Incomplete',
+              'Incompletas',
               style: Theme.of(context).textTheme.headlineMedium!.copyWith(
                     color: ColorName.primary,
                     fontWeight: FontWeight.bold,

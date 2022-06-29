@@ -49,7 +49,7 @@ class _CreateTaskCardState extends State<CreateTaskCard> {
                 maxLines: 5,
                 minLines: 1,
                 decoration: InputDecoration(
-                  hintText: 'Add a Task',
+                  hintText: 'Adicione uma tarefa',
                   hintStyle: Theme.of(context)
                       .textTheme
                       .titleMedium!
